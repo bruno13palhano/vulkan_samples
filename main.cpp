@@ -474,6 +474,10 @@ private:
         }
     }
 
+    void createGraphicsPipeline() {
+        
+    }
+
     QueueFamilyIndices findQueueFamilies(VkPhysicalDevice device) {
         QueueFamilyIndices indices;
 
