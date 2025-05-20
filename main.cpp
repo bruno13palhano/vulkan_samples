@@ -164,8 +164,6 @@ private:
 
         // Tell it to not create an OpenGL context
         glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
-        // Disable resize
-        glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
         
         window = glfwCreateWindow(WIDTH, HEIGHT, "Vulkan", nullptr, nullptr);
         glfwSetWindowUserPointer(window, this);
